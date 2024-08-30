@@ -14,7 +14,7 @@ sim_globe <- function(p = 0.7, n = 12) {
 
 
 post_samples <- rbeta(1e3, 6 + 1, 3 + 1)
-pred_post <- sapply(post_samples, function(p) sum(sim_globe(p, 100) == "W"))
+pred_post <- sapply(post_samples, function(p) sum(sim_globe(p, 10) == "W"))
 tab_post <- table(pred_post)
 plot(tab_post)
 # for (i in 0:100) lines(c(i, i), c(0, tab_post[i + 1]), lwd = 4, col = 4)

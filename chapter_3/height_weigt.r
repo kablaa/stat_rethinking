@@ -12,3 +12,4 @@ H <- runif(200, min = 130, max = 170)
 # simulates weights based on the random heights
 W <- sim_weight(H, b = 0.5, sd = 5)
 plot(W ~ H, col = 2, lwd = 3)
+library(rethinking)
