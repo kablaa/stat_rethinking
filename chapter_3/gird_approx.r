@@ -27,7 +27,7 @@ png('./samples.png')
 plot(samples)
 dev.off()
 png('./sample_density.png')
-dens(samples)
+density(samples)
 dev.off()
 
 # 17% of of the posterior probability is below 0.5
