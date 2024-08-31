@@ -1,3 +1,5 @@
+# Grid Approximation of Globe Tossing
+
 The probability that we got $k$ Waters given that $p$ is proportion of water to land can be expressed as a Binonial distribution.
 
 $$
