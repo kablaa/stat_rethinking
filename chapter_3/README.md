@@ -1,4 +1,5 @@
 The probability that we got $k$ Waters given that $p$ is proportion of water to land can be expressed as a Binonial distribution.
+
 $$
 \begin{equation}
 Pr(X=k|p) \sim \binom{N}{k}p^k(1-p)^{N-k}
